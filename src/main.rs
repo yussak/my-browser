@@ -13,7 +13,7 @@ use saba_core::{browser::Browser, error::Error, http::HttpResponse, url::Url};
 use ui_wasabi::app::WasabiUI;
 
 // MEMO:ブラウザ画面を起動するコマンド
-// rust-browser-book % DISPLAY=1 ./run_on_wasabi.sh
+// my-browser % DISPLAY=1 ./run_on_wasabi.sh
 
 fn main() -> u64 {
     let browser = Browser::new();
